@@ -1,4 +1,4 @@
-# dev-ops-capstone-project
+# dev-sec-ops-capstone-project
 
 Congratulations on making it this far on your DevOps Journey. The Capstone project is designed to show off what you've learned in the course. You will be building an application and deploying it via pipeline. Your project must meet some basic requirements, but you are free to enhance your capstone beyond those requirements.
 
@@ -6,12 +6,17 @@ Congratulations on making it this far on your DevOps Journey. The Capstone proje
 - [ ] Source Code Saved in a git repository
 - [ ] Written in the language of your choice
 - [ ] Project must deploy via pipeline
-- [ ] The pipeline must include three steps (dependency check, security check, unit tests etc)
+- [ ] Your MVP (Minimum Viable Pipeline)must include these steps:
+    - [ ] At leat 3 unit tests
+    - [ ] A security check
+    - [ ] A Dependency check
+    - [ ] A build step
+    - [ ] A Deploy Step to the cloud or hosting service of your choice ( AWS, GCP, DigitalOcean etc)
 
 
 Bonus
 - [ ] Containerize your application
-- [ ] Deploy application to the cloud of your choice
+- [ ] Deploy containerized app to kubernetes cluster
 
 
 Getting Started
@@ -31,7 +36,7 @@ Getting Started
         - Celcius to Farenheit converter
         - An about me website
         - Perimeter Calculator
-        - Password Generator
+        - Moon Weight Calculator
 - Submit merge request and merge from your development branch to your main branch
     - My GitHub username is [lamar-frankie](https://github.com/lamar-frankie)
     - [How to create a merge request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
