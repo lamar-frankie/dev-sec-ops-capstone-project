@@ -4,4 +4,4 @@ node_js:
 - "stable"
 services:
 -mongodb
-script: gulp travis
+
